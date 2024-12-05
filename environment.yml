@@ -1,0 +1,19 @@
+name: ClimBurst
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python = 3.12
+  - numpy = 2.0
+  - numba = 0.60
+  - pandas = 2.2
+  - netcdf4 = 1.7
+  - xarray = 2024.11
+  - matplotlib = 3.9
+  - plotly = 5.24
+  - cartopy = 0.24
+  - jupyter = 1.1
+  - scipy = 1.14
+  - pip = 23.3
+  - pip:
+    - pyspark == 3.5.3

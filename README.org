@@ -1,0 +1,38 @@
+#+title: Run the project
+#+author: Guillaume Coulaud
+#+email: guillaume.coulaud@inria.fr
+#+language: en
+
+* Build the project
+
+#+begin_src bash
+conda env create -f environment.yml
+#+end_src
+
+#+begin_src bash
+conda activate ClimBurst
+#+end_src
+
+#+begin_src bash
+pip install -e .
+#+end_src
+
+#+begin_src bash
+python -m ipykernel install --user --name ClimBurst --display-name "ClimBurst"
+#+end_src
+
+
+* Climate case study through notebooks
+
+The case studies are available in the `notebooks` folder. You can run them by launching a Jupyter notebook server:
+
+#+begin_src bash
+jupyter notebook notebooks/
+#+end_src
+
+
+There are two case studies available:
+- [[file:notebooks/paper_single_series.ipynb][Single time series case study]] which is the case study presented in the paper over the averaged sea surface temperature over the Mediterranean Sea.
+- [[file:notebooks/paper_grid.ipynb][Grid case study]] which is the case study presented in the paper over the sea surface temperature over the Mediterranean Sea.
+
+The data is available in the `data` folder.
