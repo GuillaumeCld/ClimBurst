@@ -1,1 +1,0 @@
-data/SST/medi_1960_2021_processed_focused.nc filter=lfs diff=lfs merge=lfs -text
