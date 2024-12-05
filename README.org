@@ -35,4 +35,4 @@ There are two case studies available:
 - [[file:notebooks/paper_single_series.ipynb][Single time series case study]] which is the case study presented in the paper over the averaged sea surface temperature over the Mediterranean Sea.
 - [[file:notebooks/paper_grid.ipynb][Grid case study]] which is the case study presented in the paper over the sea surface temperature over the Mediterranean Sea.
 
-The data is available in the `data` folder.
+The data is available in the `data` folder, the data includes the averaged time series as well as a script to build the grid data from yearly netcdf. The yearly netcdf must be downloaded from the [[https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview][Copernicus Climate Data Store]].
